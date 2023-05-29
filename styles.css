@@ -1,0 +1,30 @@
+/** @format */
+
+body {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	border-radius: 8px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	min-height: 500px;
+	min-width: 500px;
+}
+
+div {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
