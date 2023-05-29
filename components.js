@@ -1,10 +1,10 @@
 /** @format */
 
 const body = document.querySelector('body');
+const form = document.createElement('form');
 
 export const createForm = () => {
 	// Form
-	const form = document.createElement('form');
 	form.setAttribute('class', 'form');
 	body.appendChild(form);
 
